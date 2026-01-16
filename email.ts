@@ -12,7 +12,7 @@ export function validateEmail(email: string): boolean {
 
     const dotIndex = domain.indexOf('.');
     
-    if (dotIndex <= 0 || dotIndex === domain.length - 1) return false;
+    if (dotIndex <= 0 || domain[domain.length - 1] === '.') return false;
 
     return true;
 }
