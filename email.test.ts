@@ -18,5 +18,9 @@ describe('Email Validation Logic', () => {
     test('devrait refuser si pas de point dans le domaine', () => {
         expect(validateEmail('test@vinci')).toBe(false);
     });
-    
+
+    test('devrait refuser si le point est le dernier caractère', () => {
+        expect(validateEmail('test@vinci.')).toBe(false);
+    });
+
 });
