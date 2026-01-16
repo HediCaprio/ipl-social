@@ -1,13 +1,13 @@
-﻿# ipl-social
 
-nom: Ben Khalifa
-prénom: Hedi
-email: Hedi.benkhalifa@student.vinci.be
-urlGitHub: https://github.com/HediCaprio/ipl-social.git
+Last Name: Ben Khalifa 
+First Name: Hedi 
+Email: hedi.benkhalifa@student.vinci.be 
+GitHub URL: https://github.com/HediCaprio/ipl-social.git 
 
-Explication:
-Tout d'abord, j'ai initialisé mon projet et configuré le pipeline CI en créant le fichier .yml dans les GitHub Actions. J'ai ensuite structuré le projet en ajoutant les fichiers nécessaires pour le code source et les tests unitaires.
-Afin de respecter les bonnes pratiques, j'ai créé une branche nommée feature/testAndCode pour développer la logique de validation d'email en utilisant la méthodologie TDD (Test Driven Development) apprise en cours. Chaque test a été écrit pour valider une contrainte spécifique avant l'implémentation du code. Une fois le développement terminé et les tests validés, j'ai fusionné cette branche avec la branche main.
-Par la suite, ayant identifié un scénario de test manquant, j'ai créé une seconde branche feature/updateTest pour mettre à jour la suite de tests sans perturber la branche principale. Après avoir vérifié que tout fonctionnait correctement, j'ai effectué un dernier merge vers main. Enfin, j'ai apporté une correction finale pour m'assurer que le pipeline correspondait exactement aux attentes de l'énoncé.
 
-Pour lancer les tests: npm test
+Project Explanation:
+First, I initialized the project and configured the CI pipeline by creating the .yml file within GitHub Actions. I then structured the project by adding the necessary files for both the source code and the unit tests.
+To follow industry best practices, I created a branch named feature/testAndCode to develop the email validation logic using the TDD (Test Driven Development) methodology taught in class. Each test was written to validate a specific constraint before implementing the corresponding code. Once the development was finished and the tests were successful, I merged this branch into the main branch.
+Later, having identified a missing test scenario, I created a second branch feature/updateTest to update the test suite without disrupting the main branch. After verifying that everything was working correctly, I performed a final merge into main. Finally, I made a last correction to ensure the pipeline matched the exam requirements perfectly.
+
+Command to run tests: npm test
